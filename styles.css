@@ -46,6 +46,13 @@ body {
 
 tr { 
     text-decoration: underline;
-    justify-content: center;
-    
+   
+}
+
+.projects1:hover {
+color: rgb(150, 26, 150);
+}
+
+.contact1:hover {
+    color: rgb(150, 26, 150)
 }
