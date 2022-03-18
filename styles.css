@@ -45,14 +45,13 @@ body {
 }
 
 tr { 
-    text-decoration: underline;
-   
+    text-decoration: underline; 
 }
 
-.projects1:hover {
+td{ 
+    font-family: fantasy;  
+}
+
+.titles:hover {
 color: rgb(150, 26, 150);
-}
-
-.contact1:hover {
-    color: rgb(150, 26, 150)
 }
