@@ -5,22 +5,17 @@
 </head>
 <body> <main>
     <header>
-    <h1>Khadra Mohamed</h1>
-    <h2> Student at Manchester Codes </h2>
+    <h1> Khadra Mohamed</h1>
     <img src="images/khadra.PNG" width= "200" height= "300" alt= "Photo of me">
     </header>
-     <nav>
-        <a href= " ./pages/contact.html" target="_blank" >Contact Me</a>
-        <a href= " ./pages/projects.html" target="_blank"> Projects</a>
-    </nav>
-    <div class="sidenav">
+      <div class="sidenav">
         <a class= "text1" href="#"> About Me </a>
         <br>
         <a class= "text1" href="#"> Projects </a>
         <br>
         <a class= "text1" href="#"> Contact Me </a>
     </div>
-    <h3>About Me</h3>
+    <h1 class="titles"> About Me</h1>
     <p>Hello, I'm Khadra Mohamed</p>
     <p class= "paragraph1"> I've been interested in coding like many others for a while now, and during the last few months of my internship I dabbled in some free online bootcamps. I really enjoyed them, and so when I finished my internship I applied to Manchester Codes. So far really enjoying it.</p>
     <figure>
@@ -39,6 +34,7 @@
         <figcaption> Happy Yusuf </figcaption>
     </figure>
     <body> 
+        <h1 class= "titles"> Projects </h1>
          <table class="table"> 
           <tr>
          <th> Projects </th>
@@ -62,6 +58,30 @@
           </tr>
           </table>
     </body>
+    <body>
+        <h1 class= "titles" > Contact Me </h1>
+        <form>
+            <fieldset> 
+                <legend> Your Details </legend>
+                <label for ="Name"> Name </label>
+                <input id= "Name" type ="text">
+            <br>
+            <label for="Email"> Email </label>
+            <input id="Email" type="text">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Reason for contacting </legend>
+                <input type ="checkbox" name= "reason for contacting" value= "Business inquiries"> Business inquiries
+                <input type="checkbox" name= "reason for contacting" value="Job inquiries"> Job inquiries
+                <input type= "checkbox" name= "reason for contacting" value= "Other"> Other
+            </fieldset>
+            <fieldset>
+                <legend> Further notes </legend>
+                <label for="Anything else?"> Anthing else? </label>
+                <br>
+                <textarea id="notes"></textarea>
+            </fieldset>
    </main>
     </body>
      <footer>2022 Khadra Mohamed</footer>

@@ -45,7 +45,13 @@ body {
 }
 
 tr { 
-    text-decoration: underline;
-    justify-content: center;
-    
+    text-decoration: underline; 
+}
+
+td{ 
+    font-family: fantasy;  
+}
+
+.titles:hover {
+color: rgb(150, 26, 150);
 }
