@@ -5,36 +5,56 @@
 </head>
 <body> <main>
     <header>
-    <h1> Khadra Mohamed</h1>
-    <img src="images/khadra.PNG" width= "200" height= "300" alt= "Photo of me">
+    <h1 class="title3"> Khadra Mohamed</h1>
+    <img src="images/khadra.PNG" width= "300" height= "400" alt= "Photo of me">
     </header>
       <div class="sidenav">
-        <a class= "text1" href="#"> About Me </a>
+        <a class= "text1" href="#about-me"> About Me </a>
         <br>
-        <a class= "text1" href="#"> Projects </a>
+        <a class= "text1" href="#projects"> Projects </a>
         <br>
-        <a class= "text1" href="#"> Contact Me </a>
+        <a class= "text1" href="#contact-me"> Contact Me </a>
+        <br>
+        <a class="text1" href="#"> Follow Me </a>
     </div>
-    <h1 class="titles"> About Me</h1>
-    <p>Hello, I'm Khadra Mohamed</p>
-    <p class= "paragraph1"> I've been interested in coding like many others for a while now, and during the last few months of my internship I dabbled in some free online bootcamps. I really enjoyed them, and so when I finished my internship I applied to Manchester Codes. So far really enjoying it.</p>
+    <h1 id="about-me" class="titles">About Me</h1>
+    <div class="flex-container">
+    <div> Hello, I'm Khadra Mohamed</div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+      Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+      Voluptatem rerum doloremque nemo? Ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+      Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+      Voluptatem rerum doloremque nemo? </div>
+    </div>
     <figure>
-        <img src="images/Graduation pic with dad.PNG" width="200" height="300" alt="graduation">
+        <img src="images/Graduation pic with dad.PNG" width="400" height="600" alt="graduation">
         <br />
         <figcaption> Graduation picture with dad </figcaption>
     </figure>
     <figure>
-        <img src="images/boat.PNG" width="200" height="300" alt=" boat trip">
+        <img src="images/boat.PNG" width="400" height="500" alt=" boat trip">
         <br />
         <figcaption>Boat trip with the family</figcaption>
 </figure>
 <figure>
-        <img src="images/Happy Yusuf.PNG" width="200" height="300" alt="Happy Yusuf">
+        <img src="images/Happy Yusuf.PNG" width="400" height="500" alt="Happy Yusuf">
         <br />
         <figcaption> Happy Yusuf </figcaption>
     </figure>
+    <div class="flex-container">
+      <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+        Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+        Voluptatem rerum doloremque nemo? Ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+        Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+        Voluptatem rerum doloremque nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+        Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+        Voluptatem rerum doloremque nemo? Ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat id ducimus reiciendis? 
+        Voluptatibus libero laudantium autem qui perferendis esse possimus, atque a recusandae consectetur. 
+        Voluptatem rerum doloremque nemo?
+      </div>
+    </div>
     <body> 
-        <h1 class= "titles"> Projects </h1>
+        <h1 id="projects" class= "titles"> Projects </h1>
          <table class="table"> 
           <tr>
          <th> Projects </th>
@@ -59,38 +79,36 @@
           </table>
     </body>
     <body>
-        <h1 class= "titles" > Contact Me </h1>
+        <h1 id="contact-me" class= "titles" > Contact Me </h1>
         <form>
-            <fieldset> 
-                <legend> Your Details </legend>
-                <label for ="Name"> Name </label>
-                <input id= "Name" type ="text">
+            <legend> Your Details </legend>
+            <label for ="Name"> Name </label>
+            <input id= "Name" type ="text">
             <br>
             <label for="Email"> Email </label>
             <input id="Email" type="text">
-            </fieldset>
             <br>
-            <fieldset>
-                <legend> Reason for contacting </legend>
-                <input type ="checkbox" name= "reason for contacting" value= "Business inquiries"> Business inquiries
-                <input type="checkbox" name= "reason for contacting" value="Job inquiries"> Job inquiries
-                <input type= "checkbox" name= "reason for contacting" value= "Other"> Other
-            </fieldset>
-            <fieldset>
-                <legend> Further notes </legend>
-                <label for="Anything else?"> Anthing else? </label>
-                <br>
-                <textarea id="notes"></textarea>
-            </fieldset>
-   </main>
-    </body>
-     <footer>2022 Khadra Mohamed</footer>
-</main>
-
-
-
- 
-
+            <br>
+            <legend class= "reason"> Please choose your reason for contacting </legend>
+            <br>
+            <input type ="checkbox" name= "reason for contacting" value= "Business inquiries"> Business inquiries
+            <input type="checkbox" name= "reason for contacting" value="Job inquiries"> Complaints
+            <input type= "checkbox" name= "reason for contacting" value= "Other"> Other
+            <br>
+            <br>
+            <label for= " "> Additional details </label>
+            <br>
+            <textarea id="notes"></textarea>
+            <br>
+            <footer> 2022 Khadra Mohamed
+              <br>
+              Update Privacy Preference
+            </footer>
+          </main>
+        </style>
+      </head>
+      <body>
+    </main>
 
 
 
